@@ -33,7 +33,7 @@ services:
     ports:
       - "5173:5173"
     environment:
-      - VITE_BACKEND_URL=http://localhost:8080
-      - VITE_HOME_URL=http://localhost:8081
+      - VITE_BACKEND_URL=http://16.171.161.115:8080
+      - VITE_HOME_URL=http://16.171.161.115:8081
     
       
