@@ -1,4 +1,4 @@
-package com.practice.auth_service;
+package com.aws.auth_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

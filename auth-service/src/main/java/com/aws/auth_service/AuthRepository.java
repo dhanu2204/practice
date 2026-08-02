@@ -1,15 +1,12 @@
-package com.practice.auth_service.repository;
+package com.aws.auth_service;
 
+ 
 import java.util.Optional;
-
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.practice.auth_service.model.Users;
-
-
 @Repository
-public interface UserRepository extends JpaRepository<Users, Integer>{
+public interface AuthRepository extends JpaRepository<Users,Integer>{
 
     Optional<Users> findByEmail(String email);
 }
